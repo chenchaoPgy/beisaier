@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-04-23T01:45:49.033Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.72 Safari/537.36 Edg/90.0.818.42" etag="HboeSHxyRMpdLrAtQt51" version="14.6.5" type="github">
+<mxfile host="app.diagrams.net" modified="2021-04-23T01:59:01.585Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.72 Safari/537.36 Edg/90.0.818.42" etag="t48Xpx5h4dsE-MWo-FGs" version="14.6.5" type="github">
   <diagram name="Page-1" id="13e1069c-82ec-6db2-03f1-153e76fe0fe0">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#ffffff" math="0" shadow="0">
       <root>
@@ -89,10 +89,10 @@
           <mxGeometry x="230" y="180" width="150" height="20" as="geometry" />
         </mxCell>
         <mxCell id="7PfH0Qj9NsWeZIlKqpjU-20" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;" parent="1" edge="1">
-          <mxGeometry x="-1" y="611" relative="1" as="geometry">
+          <mxGeometry x="-1" y="682" relative="1" as="geometry">
             <mxPoint x="860" y="240" as="sourcePoint" />
             <mxPoint x="220" y="240" as="targetPoint" />
-            <mxPoint x="390" y="-141" as="offset" />
+            <mxPoint x="390" y="-122" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="7PfH0Qj9NsWeZIlKqpjU-21" value="3、游戏调用OneSDK的pay方法" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" parent="1" vertex="1">
@@ -151,10 +151,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="cMn84G3jMpRz9DSOVn_5-3" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;" edge="1" parent="1">
-          <mxGeometry x="-1" y="791" relative="1" as="geometry">
+          <mxGeometry x="-1" y="838" relative="1" as="geometry">
             <mxPoint x="540" y="320" as="sourcePoint" />
             <mxPoint x="220" y="320" as="targetPoint" />
-            <mxPoint x="670" y="-371" as="offset" />
+            <mxPoint x="680" y="-348" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="cMn84G3jMpRz9DSOVn_5-4" value="7、调用渠道的支付方法" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">

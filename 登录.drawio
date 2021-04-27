@@ -1,1 +1,131 @@
-<mxfile host="app.diagrams.net" modified="2021-04-27T06:56:08.453Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.85 Safari/537.36 Edg/90.0.818.46" version="14.6.6" etag="9r73YQs52rlwadxLU2wH" type="github"><diagram id="N4hgAlWYD7BNVuk5wzdy">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-04-27T11:20:01.997Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.85 Safari/537.36 Edg/90.0.818.46" etag="dig6tIuUCX3f-JIeyfAo" version="14.6.6" type="github">
+  <diagram id="N4hgAlWYD7BNVuk5wzdy" name="Page-1">
+    <mxGraphModel dx="2249" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="gwEVNQhtp6cSVMnGPhEk-338" value="游戏" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-715" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gwEVNQhtp6cSVMnGPhEk-339" value="OnsSDK" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-555" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gwEVNQhtp6cSVMnGPhEk-340" value="渠道" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-395" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gwEVNQhtp6cSVMnGPhEk-341" value="渠道后台" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-235" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gwEVNQhtp6cSVMnGPhEk-342" value="" style="shape=link;html=1;" edge="1" parent="1" target="gwEVNQhtp6cSVMnGPhEk-340">
+          <mxGeometry width="100" relative="1" as="geometry">
+            <mxPoint x="-335" y="640" as="sourcePoint" />
+            <mxPoint x="-255" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gwEVNQhtp6cSVMnGPhEk-343" value="" style="shape=link;html=1;" edge="1" parent="1">
+          <mxGeometry width="100" relative="1" as="geometry">
+            <mxPoint x="-655.5" y="640" as="sourcePoint" />
+            <mxPoint x="-655.5" y="100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gwEVNQhtp6cSVMnGPhEk-344" value="" style="shape=link;html=1;startArrow=none;" edge="1" parent="1" source="gwEVNQhtp6cSVMnGPhEk-363">
+          <mxGeometry width="100" relative="1" as="geometry">
+            <mxPoint x="-495.5" y="640" as="sourcePoint" />
+            <mxPoint x="-495.5" y="100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gwEVNQhtp6cSVMnGPhEk-345" value="" style="shape=link;html=1;" edge="1" parent="1">
+          <mxGeometry width="100" relative="1" as="geometry">
+            <mxPoint x="-175.5" y="640" as="sourcePoint" />
+            <mxPoint x="-175.5" y="100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gwEVNQhtp6cSVMnGPhEk-346" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-655" y="150" as="sourcePoint" />
+            <mxPoint x="-495" y="150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gwEVNQhtp6cSVMnGPhEk-347" value="调用的登录方法" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-625" y="130" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="gwEVNQhtp6cSVMnGPhEk-348" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-495" y="190" as="sourcePoint" />
+            <mxPoint x="-335" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gwEVNQhtp6cSVMnGPhEk-349" value="调用母包的登录方法" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-475" y="170" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="gwEVNQhtp6cSVMnGPhEk-350" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-335" y="230" as="sourcePoint" />
+            <mxPoint x="-175" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gwEVNQhtp6cSVMnGPhEk-352" value="调用登录接口" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-300" y="210" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="gwEVNQhtp6cSVMnGPhEk-353" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;" edge="1" parent="1">
+          <mxGeometry x="-1" y="479" relative="1" as="geometry">
+            <mxPoint x="-175" y="270" as="sourcePoint" />
+            <mxPoint x="-335" y="270" as="targetPoint" />
+            <mxPoint x="230" y="-59" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gwEVNQhtp6cSVMnGPhEk-354" value="返回登录结果 user_id msg" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-335" y="250" width="160" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="gwEVNQhtp6cSVMnGPhEk-356" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;" edge="1" parent="1">
+          <mxGeometry x="-1" y="510" relative="1" as="geometry">
+            <mxPoint x="-335" y="310" as="sourcePoint" />
+            <mxPoint x="-490" y="310" as="targetPoint" />
+            <mxPoint x="340" y="-130" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gwEVNQhtp6cSVMnGPhEk-357" value="返回一个由&amp;nbsp; &amp;nbsp;base64的本地公钥加密的user_id &amp;amp; osdk_conf_id &amp;amp;channel &amp;amp;时间戳" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-480" y="290" width="450" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="gwEVNQhtp6cSVMnGPhEk-358" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-330" y="320" as="sourcePoint" />
+            <mxPoint x="-180" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gwEVNQhtp6cSVMnGPhEk-359" value="发起verify" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-290" y="320" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="gwEVNQhtp6cSVMnGPhEk-364" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;" edge="1" parent="1">
+          <mxGeometry x="-1" y="489" relative="1" as="geometry">
+            <mxPoint x="-180" y="370" as="sourcePoint" />
+            <mxPoint x="-490" y="370" as="targetPoint" />
+            <mxPoint x="370" y="-169" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gwEVNQhtp6cSVMnGPhEk-365" value="Verify的数据返回" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-445" y="350" width="110" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="gwEVNQhtp6cSVMnGPhEk-366" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;" edge="1" parent="1">
+          <mxGeometry x="-1" y="797" relative="1" as="geometry">
+            <mxPoint x="-500" y="370" as="sourcePoint" />
+            <mxPoint x="-650" y="370" as="targetPoint" />
+            <mxPoint x="730" y="-477" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gwEVNQhtp6cSVMnGPhEk-367" value="Verify的数据返回游戏" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-625" y="350" width="130" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="gwEVNQhtp6cSVMnGPhEk-363" value="这个节点OneSDK更新本地数据，判断是否有悬浮窗，有则打开" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-555" y="390" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gwEVNQhtp6cSVMnGPhEk-368" value="" style="shape=link;html=1;endArrow=none;" edge="1" parent="1" target="gwEVNQhtp6cSVMnGPhEk-363">
+          <mxGeometry width="100" relative="1" as="geometry">
+            <mxPoint x="-495.5" y="640" as="sourcePoint" />
+            <mxPoint x="-495.5" y="100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-04-23T01:59:01.585Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.72 Safari/537.36 Edg/90.0.818.42" etag="t48Xpx5h4dsE-MWo-FGs" version="14.6.5" type="github">
+<mxfile host="app.diagrams.net" modified="2021-07-07T02:44:52.159Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36 Edg/91.0.864.59" etag="ophZTbw1n6kRHSaSOzYH" version="14.8.4" type="github">
   <diagram name="Page-1" id="13e1069c-82ec-6db2-03f1-153e76fe0fe0">
-    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#ffffff" math="0" shadow="0">
+    <mxGraphModel dx="1422" dy="714" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -135,8 +135,8 @@
             <mxPoint x="500" y="-260" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="7PfH0Qj9NsWeZIlKqpjU-31" value="9、通知OneSDK后端完成支付" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" parent="1" vertex="1">
-          <mxGeometry x="529" y="440" width="180" height="20" as="geometry" />
+        <mxCell id="7PfH0Qj9NsWeZIlKqpjU-31" value="9、通知OneSDK后端完成支付，通过管理后台配置的地址（&lt;span style=&quot;color: rgb(106 , 135 , 89) ; background-color: rgb(43 , 43 , 43) ; font-family: &amp;#34;courier new&amp;#34; ; font-size: 10.5pt&quot;&gt;paynotify&lt;/span&gt;&lt;span&gt;）&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="470" y="440" width="420" height="20" as="geometry" />
         </mxCell>
         <mxCell id="7PfH0Qj9NsWeZIlKqpjU-34" value="" style="endArrow=classic;html=1;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -150,30 +150,40 @@
             <mxPoint x="860" y="520" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="cMn84G3jMpRz9DSOVn_5-3" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;" edge="1" parent="1">
+        <mxCell id="cMn84G3jMpRz9DSOVn_5-3" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;" parent="1" edge="1">
           <mxGeometry x="-1" y="838" relative="1" as="geometry">
             <mxPoint x="540" y="320" as="sourcePoint" />
             <mxPoint x="220" y="320" as="targetPoint" />
             <mxPoint x="680" y="-348" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="cMn84G3jMpRz9DSOVn_5-4" value="7、调用渠道的支付方法" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+        <mxCell id="cMn84G3jMpRz9DSOVn_5-4" value="7、调用渠道的支付方法" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" parent="1" vertex="1">
           <mxGeometry x="221" y="365" width="140" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="cMn84G3jMpRz9DSOVn_5-6" value="10、通知游戏后端支付完成" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+        <mxCell id="cMn84G3jMpRz9DSOVn_5-6" value="10、通知游戏后端支付完成" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" parent="1" vertex="1">
           <mxGeometry x="705" y="470" width="160" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="cMn84G3jMpRz9DSOVn_5-7" value="11、通知游戏支付完成" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+        <mxCell id="cMn84G3jMpRz9DSOVn_5-7" value="11、通知游戏支付完成" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" parent="1" vertex="1">
           <mxGeometry x="870" y="500" width="140" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="cMn84G3jMpRz9DSOVn_5-8" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
+        <mxCell id="cMn84G3jMpRz9DSOVn_5-8" value="" style="endArrow=classic;html=1;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="220" y="360" as="sourcePoint" />
             <mxPoint x="860" y="360" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="cMn84G3jMpRz9DSOVn_5-9" value="6、将订单号回调出去，游戏可选择性处理（6、7两步同时进行）" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+        <mxCell id="cMn84G3jMpRz9DSOVn_5-9" value="6、将订单号回调出去，游戏可选择性处理（6、7两步同时进行）" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" parent="1" vertex="1">
           <mxGeometry x="220" y="340" width="360" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Oor2Xu35Bk2JzpkP8gIT-1" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;" edge="1" parent="1">
+          <mxGeometry x="-1" y="838" relative="1" as="geometry">
+            <mxPoint x="220" y="330" as="sourcePoint" />
+            <mxPoint x="60" y="330" as="targetPoint" />
+            <mxPoint x="680" y="-348" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Oor2Xu35Bk2JzpkP8gIT-2" value="订单号回传H5" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="100" y="301" width="90" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
